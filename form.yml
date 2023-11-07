@@ -31,6 +31,12 @@ attributes:
   # command that launches the Jupyter notebook within the batch job
   extra_jupyter_args: ""
 
+  bc_account: ""
+  bc_queue: ""
+  bc_num_hours: 12
+  bc_num_slots: 1
+  bc_email_on_started: false
+
 # All of the attributes that make up the Dashboard form (in respective order),
 # and made available to the submit configuration file and the template ERB
 # files
