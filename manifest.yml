@@ -1,5 +1,5 @@
 ---
-name: ML102 JupyterLab
+name: ML102
 category: Interactive Apps
 subcategory: Servers
 role: batch_connect
