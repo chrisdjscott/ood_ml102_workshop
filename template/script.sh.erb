@@ -27,4 +27,5 @@ echo "TIMING - Starting jupyter at: $(date)"
 # Launch the Jupyter Notebook Server
 set -x
 rsync --ignore-existing -a /opt/ml102_workshop/ ~/ml102_workshop/
+export PS1='[\u@\h \W]$ '
 jupyter lab --config="${CONFIG_FILE}" <%= context.extra_jupyter_args %>
